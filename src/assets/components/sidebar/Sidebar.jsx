@@ -2,6 +2,11 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import './sidebar.scss'
 import DashboardIcon from '@mui/icons-material/Dashboard';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
+import ViewListIcon from '@mui/icons-material/ViewList';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import LogoutIcon from '@mui/icons-material/Logout';
 
 const Sidebar = () => {
   return (
@@ -22,22 +27,28 @@ const Sidebar = () => {
       <p className="title">LIST</p>
       <Link to="/users">
         <li>
+        <AccountBoxIcon className='icon'/>
           <span>Users</span>
         </li>
       </Link>
+     
       <Link to="/products">
         <li>
+        <ProductionQuantityLimitsIcon className='icon'/>
           <span>Products</span>
         </li>
       </Link>
       <li>
+      <ViewListIcon className='icon'/>
         <span>Orders</span>
       </li>
       <p className="title">USER</p>
       <li>
+      <AccountCircleIcon className='icon'/>
         <span>Profile</span>
       </li>
       <li>
+      <LogoutIcon className='icon'/>
         <span>Logout</span>
       </li>
     </ul>
