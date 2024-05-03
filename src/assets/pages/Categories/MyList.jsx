@@ -3,13 +3,13 @@ import "./mylist.scss";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import Widget from "../../components/widget/Widget";
-import MyDatatable from '../../components/Mydatatable/MyDatatable';
+import MyDatatable from '../../components/mydatatable/MyDatatable';
 
 const MyList = () => {
   return (
-    <div className="home">
+    <div className="mylist">
       <Sidebar />
-      <div className="homeContainer">
+      <div className="MyListContainer">
         <Navbar />
           <div className="widgets">
           <Widget type= "user" />

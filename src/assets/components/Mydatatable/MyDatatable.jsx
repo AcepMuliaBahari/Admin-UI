@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const columns = [
     { field: "id", headerName: "ID", width: 70 },
     { field: "Name", headerName: " Name", width: 130 },
+    
     // { field: "lastName", headerName: "Last name", width: 130 },
     // {
     //   field: "age",

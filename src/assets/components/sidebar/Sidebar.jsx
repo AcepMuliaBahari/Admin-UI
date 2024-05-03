@@ -40,10 +40,13 @@ const Sidebar = () => {
         </li>
       </Link>
       
+      < Link to="/orders">
       <li>
       <AddBusinessIcon className='icon'/>
         <span>Orders</span>
       </li>
+      </Link>
+
       <Link to="/categories">
         <li>
         <CategoryIcon className='icon'/>
