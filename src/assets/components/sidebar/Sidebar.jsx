@@ -4,8 +4,9 @@ import './sidebar.scss'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
-import ViewListIcon from '@mui/icons-material/ViewList';
+import AddBusinessIcon from '@mui/icons-material/AddBusiness';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import CategoryIcon from '@mui/icons-material/Category';
 import LogoutIcon from '@mui/icons-material/Logout';
 
 const Sidebar = () => {
@@ -38,10 +39,17 @@ const Sidebar = () => {
           <span>Products</span>
         </li>
       </Link>
+      
       <li>
-      <ViewListIcon className='icon'/>
+      <AddBusinessIcon className='icon'/>
         <span>Orders</span>
       </li>
+      <Link to="/categories">
+        <li>
+        <CategoryIcon className='icon'/>
+          <span>Categories</span>
+        </li>
+      </Link>
       <p className="title">USER</p>
       <li>
       <AccountCircleIcon className='icon'/>
