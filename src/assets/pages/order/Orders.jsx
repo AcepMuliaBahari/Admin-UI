@@ -11,7 +11,7 @@ function Orders() {
         <Navbar />
          
           <div className="center">
-            Order
+            hlmn order
           </div>
         </div>
     </div>
